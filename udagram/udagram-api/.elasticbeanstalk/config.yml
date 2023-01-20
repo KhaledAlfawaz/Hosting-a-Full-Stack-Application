@@ -1,12 +1,13 @@
 branch-defaults:
   default:
-    environment: Udagram-api-env
+    environment: udagram-api-dev
 environment-defaults:
-  Udagram-api-env:
+  udagram-api-dev:
     branch: null
     repository: null
 global:
   application_name: udagram-api
+  branch: null
   default_ec2_keyname: null
   default_platform: Node.js 14
   default_region: us-east-1
@@ -15,5 +16,6 @@ global:
   platform_name: null
   platform_version: null
   profile: null
+  repository: null
   sc: null
   workspace_type: Application
