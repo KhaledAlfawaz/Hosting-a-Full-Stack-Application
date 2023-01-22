@@ -55,7 +55,6 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
-      - set environment variables
       - run:
           name: Set environment variables
           command: |
